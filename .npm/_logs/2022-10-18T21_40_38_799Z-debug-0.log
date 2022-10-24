@@ -1,0 +1,136 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.19.1
+2 info using node@v18.9.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/zerok/.cache/typescript/4.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 6ms
+11 timing config:load:file:/home/zerok/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 15ms
+19 timing npm:load:configload Completed in 15ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 2ms
+22 verbose title npm install types-registry@latest
+23 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+24 timing npm:load:setTitle Completed in 0ms
+25 timing config:load:flatten Completed in 2ms
+26 timing npm:load:display Completed in 2ms
+27 verbose logfile logs-max:10 dir:/home/zerok/.npm/_logs
+28 verbose logfile /home/zerok/.npm/_logs/2022-10-18T21_40_38_799Z-debug-0.log
+29 timing npm:load:logFile Completed in 5ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 26ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 40ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/types-registry 551ms (cache updated)
+39 timing idealTree:userRequests Completed in 557ms
+40 silly idealTree buildDeps
+41 silly fetch manifest types-registry@0.1.614
+42 silly placeDep ROOT types-registry@0.1.614 REPLACE for:  want: 0.1.614
+43 timing idealTree:#root Completed in 4ms
+44 timing idealTree:node_modules/types-registry Completed in 0ms
+45 timing idealTree:buildDeps Completed in 5ms
+46 timing idealTree:fixDepFlags Completed in 1ms
+47 timing idealTree Completed in 604ms
+48 timing reify:loadTrees Completed in 605ms
+49 timing reify:diffTrees Completed in 3ms
+50 silly reify mark retired [ '/home/zerok/.cache/typescript/4.8/node_modules/types-registry' ]
+51 silly reify moves {
+51 silly reify   '/home/zerok/.cache/typescript/4.8/node_modules/types-registry': '/home/zerok/.cache/typescript/4.8/node_modules/.types-registry-54Zor82f'
+51 silly reify }
+52 timing reify:retireShallow Completed in 5ms
+53 timing reify:createSparse Completed in 1ms
+54 timing reify:loadBundles Completed in 0ms
+55 silly audit bulk request {
+55 silly audit   '@babel/code-frame': [ '7.18.6' ],
+55 silly audit   '@babel/helper-validator-identifier': [ '7.18.6' ],
+55 silly audit   '@babel/highlight': [ '7.18.6' ],
+55 silly audit   'ansi-styles': [ '3.2.1', '4.3.0', '5.2.0' ],
+55 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+55 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+55 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+55 silly audit   'escape-string-regexp': [ '1.0.5', '2.0.0' ],
+55 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+55 silly audit   'supports-color': [ '5.5.0', '7.2.0' ],
+55 silly audit   '@jest/expect-utils': [ '29.0.3' ],
+55 silly audit   '@jest/schemas': [ '29.0.0' ],
+55 silly audit   '@jest/types': [ '29.0.3' ],
+55 silly audit   '@sinclair/typebox': [ '0.24.40' ],
+55 silly audit   '@types/istanbul-lib-coverage': [ '2.0.4' ],
+55 silly audit   '@types/istanbul-lib-report': [ '3.0.0' ],
+55 silly audit   '@types/istanbul-reports': [ '3.0.1' ],
+55 silly audit   '@types/jest': [ '29.0.1' ],
+55 silly audit   '@types/node': [ '18.7.16' ],
+55 silly audit   '@types/prop-types': [ '15.7.5' ],
+55 silly audit   '@types/react': [ '18.0.19' ],
+55 silly audit   '@types/react-dom': [ '18.0.6' ],
+55 silly audit   '@types/scheduler': [ '0.16.2' ],
+55 silly audit   '@types/stack-utils': [ '2.0.1' ],
+55 silly audit   '@types/testing-library__jest-dom': [ '5.14.5' ],
+55 silly audit   '@types/yargs': [ '17.0.12' ],
+55 silly audit   '@types/yargs-parser': [ '21.0.0' ],
+55 silly audit   braces: [ '3.0.2' ],
+55 silly audit   'ci-info': [ '3.4.0' ],
+55 silly audit   csstype: [ '3.1.0' ],
+55 silly audit   'diff-sequences': [ '29.0.0' ],
+55 silly audit   expect: [ '29.0.3' ],
+55 silly audit   'fill-range': [ '7.0.1' ],
+55 silly audit   'graceful-fs': [ '4.2.10' ],
+55 silly audit   'is-number': [ '7.0.0' ],
+55 silly audit   'jest-diff': [ '29.0.3' ],
+55 silly audit   'jest-get-type': [ '29.0.0' ],
+55 silly audit   'jest-matcher-utils': [ '29.0.3' ],
+55 silly audit   'jest-message-util': [ '29.0.3' ],
+55 silly audit   'jest-util': [ '29.0.3' ],
+55 silly audit   'js-tokens': [ '4.0.0' ],
+55 silly audit   micromatch: [ '4.0.5' ],
+55 silly audit   picomatch: [ '2.3.1' ],
+55 silly audit   'pretty-format': [ '29.0.3' ],
+55 silly audit   'react-is': [ '18.2.0' ],
+55 silly audit   slash: [ '3.0.0' ],
+55 silly audit   'stack-utils': [ '2.0.5' ],
+55 silly audit   'to-regex-range': [ '5.0.1' ],
+55 silly audit   'types-registry': [ '0.1.614' ]
+55 silly audit }
+56 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.614.tgz. Extracting by manifest.
+57 http fetch GET 200 https://registry.npmjs.org/npm 838ms (cache updated)
+58 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 255ms
+59 timing auditReport:getReport Completed in 258ms
+60 silly audit report {}
+61 timing auditReport:init Completed in 0ms
+62 timing reify:audit Completed in 261ms
+63 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.614.tgz 434ms (cache miss)
+64 timing reifyNode:node_modules/types-registry Completed in 442ms
+65 timing reify:unpack Completed in 442ms
+66 timing reify:unretire Completed in 0ms
+67 timing build:queue Completed in 0ms
+68 timing build:deps Completed in 1ms
+69 timing build Completed in 1ms
+70 timing reify:build Completed in 1ms
+71 timing reify:trash Completed in 1ms
+72 timing reify:save Completed in 12ms
+73 timing reify Completed in 1093ms
+74 silly CHANGE node_modules/types-registry
+75 timing command:install Completed in 1098ms
+76 notice
+76 notice New patch version of npm available! 8.19.1 -> 8.19.2
+76 notice Changelog: <https://github.com/npm/cli/releases/tag/v8.19.2>
+76 notice Run `npm install -g npm@8.19.2` to update!
+76 notice
+77 verbose exit 0
+78 timing npm Completed in 1261ms
+79 info ok

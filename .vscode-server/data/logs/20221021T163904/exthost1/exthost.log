@@ -1,0 +1,17 @@
+[2022-10-21 16:39:05.948] [exthost] [info] Extension host with pid 201 started
+[2022-10-21 16:39:05.983] [exthost] [info] Lock '/home/zerok/.vscode-server/data/User/workspaceStorage/3c72db23a2342e308992e5e3b221ee0e/vscode.lock': Lock acquired.
+[2022-10-21 16:39:06.040] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-21 16:39:06.041] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-21 16:39:06.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-21 16:39:06.042] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+[2022-10-21 16:39:06.043] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-10-21 16:39:06.191] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-21 16:39:06.191] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-21 16:39:06.517] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-21 16:39:06.518] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-21 16:39:06.518] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+[2022-10-21 16:39:06.518] [exthost] [info] Eager extensions activated
+[2022-10-21 16:39:06.889] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-21 16:41:13.856] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-21 16:41:13.858] [exthost] [info] Lock '/home/zerok/.vscode-server/data/User/workspaceStorage/3c72db23a2342e308992e5e3b221ee0e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-21 16:41:13.881] [exthost] [info] Extension host with pid 201 exiting with code 0

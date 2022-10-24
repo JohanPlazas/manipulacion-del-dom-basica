@@ -1,0 +1,7 @@
+[2022-10-01 03:51:56.856] [remoteagent] [info] Extension host agent started.
+[2022-10-01 03:51:57.058] [remoteagent] [info] Deleted from disk esbenp.prettier-vscode /home/zerok/.vscode-server/extensions/esbenp.prettier-vscode-9.8.0
+[2022-10-01 03:51:57.102] [remoteagent] [info] [127.0.0.1][3880f81b][ManagementConnection] New connection established.
+[2022-10-01 03:51:57.388] [remoteagent] [info] [127.0.0.1][a4f2b21a][ExtensionHostConnection] New connection established.
+[2022-10-01 03:51:57.667] [remoteagent] [info] [127.0.0.1][a4f2b21a][ExtensionHostConnection] <128> Launched Extension Host Process.
+[2022-10-01 03:52:00.126] [remoteagent] [info] [127.0.0.1][3880f81b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-01 03:52:00.152] [remoteagent] [info] [127.0.0.1][a4f2b21a][ExtensionHostConnection] <128> Extension Host Process exited with code: 0, signal: null.
